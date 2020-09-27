@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-image: url("../images/login3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.navigate-logging{
+    background-color: #85929E;
+    box-shadow: 1px 2px 5px black;
+    padding: 10px 5px 10px 5px;
+}
+.navigate-logging button{
+    background-color: #29B6F6;
+    font-family: Georgia;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    transition: .1s box-shadow;
+    margin-left: 90%;
+}
+.navigate-logging button:hover{
+    box-shadow: 1px 1px 2px black;
+}
+.form-1{
+    box-shadow: 2px 2px 10px black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+.form-1 input{
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CCD1D1 ;
+}
+.button1{
+    background-color: #58D68D;
+    border-radius: 10px;
+    font-family: Verdana;
+    width: 250px;
+    border: none;
+    margin-left: 4%;
+    padding: 10px;
+}
+.button1:hover {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .9);
+}
+.display-message{
+    text-align: center;
+    background-color: #58D68D;
+    font-family: Trebuchet MS;
+    margin-top: 0;
+    box-shadow: 1px 2px 5px black;
+}
+.display-message p {
+    padding: 15px;
+}
+.display-message span{
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.display-message span:hover{
+    color: red;
+}
+.display-message h4{
+    padding: 15px;
+    color: #AD1457;
+    /* text-shadow: 1px 2px 4px black; */
+}
